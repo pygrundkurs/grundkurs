@@ -13,9 +13,11 @@ else:
     print('erwachsenen')
 
 
-if alter < 65 and alter > 17:
+if 65 > alter > 17:
     print('Erwachsenenticket')
 elif alter > 64:
     print('Senioren')
 else:
     print('Kinder')
+
+print('hallo')
