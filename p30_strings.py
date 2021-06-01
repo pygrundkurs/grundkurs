@@ -28,7 +28,7 @@ print(wort.find('allo'))
 print(wort.find('asdf'))
 
 if wort.find('asdf') == -1:
-    print('Wort enthätl asdf nicht')
+    print('Wort enthält asdf nicht')
 
 print(wort.isnumeric())
 print('42'.isnumeric())
