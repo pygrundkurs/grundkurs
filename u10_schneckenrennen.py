@@ -41,6 +41,7 @@ class Rennen:
 
     def to_string(self):
         # __str__ als Alternative
+        # y@g5c.de
         text = self.name + ' (' + str(self.laenge) + ')\n'
 
         for sn in self.teilnehmer:
