@@ -25,3 +25,7 @@ print(encrypt('Hallo', 1))
 print(encrypt('Hallo', 2))
 print(encrypt('Hallo', 3))
 print(encrypt('Python macht Spass', 3))
+
+import z01_modul
+
+help(z01_modul)
